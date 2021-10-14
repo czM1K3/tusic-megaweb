@@ -1,0 +1,21 @@
+
+li:hover {
+
+    transform: translateX(20px);
+    background-color: rgb(255, 85, 85);  
+    border-radius: 10px; 
+}
+
+    
+div img{
+    width: 300px;
+    padding: 21px;   
+
+    transition-delay: 150ms;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+
+div img:hover{
+    transform: scale(1.05);
+}  
